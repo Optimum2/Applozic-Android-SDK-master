@@ -100,7 +100,7 @@ public class LoginActivity extends Activity implements ActivityCompat.OnRequestP
         setContentView(R.layout.activity_login);
         setupUI(findViewById(R.id.layout));
         layout = (LinearLayout) findViewById(R.id.footerSnack);
-
+sonali();
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
 
@@ -572,4 +572,5 @@ public class LoginActivity extends Activity implements ActivityCompat.OnRequestP
             addEmailsToAutoComplete(emailAddressCollection);
         }
     }
+    public void sonali(){}
 }
